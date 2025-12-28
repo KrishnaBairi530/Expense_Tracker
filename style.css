@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    background: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+}
+p{
+    text-align: center;
+    color: #cc02ae;
+    
+}
+h2, h3  {
+    text-align: center;
+}
+
+.income-expense {
+    display: flex;
+    justify-content: space-between;
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.money.plus {
+    color: green;
+}
+
+.money.minus {
+    color: red;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    padding: 8px;
+    border-right: 5px solid;
+}
+
+.list li.plus {
+    border-color: green;
+}
+
+.list li.minus {
+    border-color: red;
+}
+
+button {
+    width: 100px;
+    padding: 8px;
+    background: #090231;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
